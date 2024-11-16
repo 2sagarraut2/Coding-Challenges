@@ -1,6 +1,6 @@
-# Day 1: Pyramid Pattern
+# Day 1:
 
-### Problem
+### Problem 1
 
 # Print a pyramid pattern based on the number of rows.
 
@@ -15,3 +15,18 @@
        *****
       *******
      *********
+
+### Problem 2
+
+# Write a program in JavaScript to reverse a given string.
+
+### Input
+
+A single string s.
+
+Example: s = "hello"
+
+### Output
+
+The reversed string.
+Example: "olleh"
