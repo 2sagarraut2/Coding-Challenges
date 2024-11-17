@@ -27,3 +27,4 @@ Example: s = "madam"
 
 Return true if the string is a palindrome, otherwise false.
 Example: "madam" → true, "hello" → false
+Output if Palindrome
