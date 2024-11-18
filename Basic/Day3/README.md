@@ -20,7 +20,7 @@ Example: 8
 
 ### Input
 
-A string s.
+A string s
 Example: s = "hello world"
 
 ### Output
