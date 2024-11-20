@@ -2,6 +2,10 @@ function largetElement(arr) {
   // declare a variable to store max value as first value of array
   let max = arr[0];
 
+  if (arr.length < 2) {
+    throw new Error("Array must have at least two elements.");
+  }
+
   for (let element of arr) {
     // check if element is greater than max
     element > max ? (max = element) : max;
