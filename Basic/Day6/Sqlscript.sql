@@ -18,9 +18,9 @@ BEGIN
 END;
 //
 DELIMITER ;
-call updateChildAttendanceRecords('T1827032Z', '2022-08-22', '2022-08-22 09:06:11', 'present');
-call updateChildAttendanceRecords('T1827032Z', '2022-08-23', '2022-08-23 08:50:22', 'present');
-call updateChildAttendanceRecords('T1831765B', '2022-08-22', '2022-08-22 09:35:31', 'present');
-call updateChildAttendanceRecords('T1831765B', '2022-08-23', '2022-08-23 09:39:38', 'present');
+call updateChildAttendanceRecords('XXXXXX', '2022-08-22', '2022-08-22 09:06:11', 'present');
+call updateChildAttendanceRecords('XXXXXX', '2022-08-23', '2022-08-23 08:50:22', 'present');
+call updateChildAttendanceRecords('XXXXXX', '2022-08-22', '2022-08-22 09:35:31', 'present');
+call updateChildAttendanceRecords('XXXXXX', '2022-08-23', '2022-08-23 09:39:38', 'present');
 DROP PROCEDURE IF EXISTS updateChildAttendanceRecords;
 COMMIT ;
